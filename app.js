@@ -72,3 +72,9 @@ stopBtn.disabled = true;
 stopSimulatedFeed();
 stopLivePoller();
 });
+
+// start automatically with default symbol
+window.addEventListener('DOMContentLoaded', ()=>{
+// optional: auto-start to show animation
+// startBtn.click();
+});
